@@ -18,6 +18,7 @@ public class LiveTwitterSource extends TwitterSource {
         initializeTwitterStream();
     }
 
+    @Override
     protected void sync() {
         FilterQuery filter = new FilterQuery();
         // https://stackoverflow.com/questions/21383345/using-multiple-threads-to-get-data-from-twitter-using-twitter4j

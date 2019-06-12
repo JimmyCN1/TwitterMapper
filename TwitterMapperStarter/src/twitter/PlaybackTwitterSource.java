@@ -30,6 +30,7 @@ public class PlaybackTwitterSource extends TwitterSource {
             long playbackStartTime = System.currentTimeMillis() + initialDelay;
             long recordStartTime = 0;
 
+            @Override
             public void run() {
                 long now;
                 while (true) {
@@ -71,6 +72,7 @@ public class PlaybackTwitterSource extends TwitterSource {
     /**
      * The playback source merely starts the playback thread, it it hasn't been started already
      */
+    @Override
     protected void sync() {
         System.out.println("Starting playback thread with " + terms);
 
