@@ -192,6 +192,7 @@ public class Application extends JFrame {
     public void terminateQuery(Query query) {
         // TODO: This is the place where you should disconnect the expiring query from the twitter source
         queries.remove(query);
+
         Set<String> allterms = getQueryTerms();
         twitterSource.setFilterTerms(allterms);
     }

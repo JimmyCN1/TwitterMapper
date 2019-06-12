@@ -28,6 +28,6 @@ public class OrFilter implements Filter {
     }
 
     public String toString() {
-        return String.format("%s or %s", child1, child2);
+        return String.format("(%s or %s)", child1, child2);
     }
 }

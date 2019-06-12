@@ -1,17 +1,19 @@
 package query;
 
 import filters.Filter;
+import observable.TweetSaver;
 import org.openstreetmap.gui.jmapviewer.JMapViewer;
 import org.openstreetmap.gui.jmapviewer.Layer;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.Observable;
 
 /**
  * A query over the twitter stream.
  * TODO: Task 4: you are to complete this class.
  */
-public class Query {
+public class Query extends TweetSaver {
     // The map on which to display markers when the query matches
     private final JMapViewer map;
     // Each query has its own "layer" so they can be turned on and off all at once
@@ -67,6 +69,11 @@ public class Query {
      * TODO: Implement this method
      */
     public void terminate() {
+
+    }
+
+    @Override
+    public void update(Observable o, Object arg) {
 
     }
 }

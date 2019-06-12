@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="493994da-a99d-4ffa-a55c-69e7a7e63e85" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterMapperStarter/out/observable/TweetSaver.class" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterMapperStarter/out/observable/TweetSaver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterMapperStarter/out/query/Query.class" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterMapperStarter/out/query/Query.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterMapperStarter/out/ui/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterMapperStarter/out/ui/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TwitterMapperStarter/src/filters/AndFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterMapperStarter/src/filters/AndFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TwitterMapperStarter/src/filters/OrFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterMapperStarter/src/filters/OrFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterMapperStarter/src/filters/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterMapperStarter/src/filters/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterMapperStarter/src/observable/TweetSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterMapperStarter/src/observable/TweetSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterMapperStarter/src/query/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterMapperStarter/src/query/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwitterMapperStarter/src/ui/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwitterMapperStarter/src/ui/Application.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/ui/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
+            <state relative-caret-position="435">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,10 +37,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/Filter.java">
+        <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/ui/ContentPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="-574">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,10 +49,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/BasicFilter.java">
+        <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="1186">
+              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+              <folding>
+                <element signature="e#1333#1334#0" expanded="true" />
+                <element signature="e#1377#1378#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,24 +64,55 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/AndFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="390">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/test/TestFilters.java">
+        <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/OrFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            <state relative-caret-position="420">
+              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/Scanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/twitter/TwitterSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/twitter/test/TestPlaybackTwitterSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,29 +121,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/OrFilter.java">
+        <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/test/TestParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="330">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/NotFilter.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.0-RC1/junit-platform-commons-1.5.0-RC1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="592">
+              <caret line="354" selection-start-line="354" selection-end-line="354" />
             </state>
           </provider>
         </entry>
@@ -114,6 +150,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LPAREN</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -121,21 +162,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TwitterMapperStarter/src/filters/test/TestScanner.java" />
-        <option value="$PROJECT_DIR$/TwitterMapperStarter/src/filters/Parser.java" />
         <option value="$PROJECT_DIR$/TwitterMapperStarter/src/util/test/TestImage.java" />
         <option value="$PROJECT_DIR$/TwitterMapperStarter/src/util/ObjectSink.java" />
         <option value="$PROJECT_DIR$/TwitterMapperStarter/src/filters/test/TestParser.java" />
         <option value="$PROJECT_DIR$/TwitterMapperStarter/src/twitter/LiveTwitterSource.java" />
         <option value="$PROJECT_DIR$/TwitterMapperStarter/src/twitter/PlaybackTwitterSource.java" />
-        <option value="$PROJECT_DIR$/TwitterMapperStarter/src/observable/TweetSaver.java" />
         <option value="$PROJECT_DIR$/TwitterMapperStarter/src/twitter/test/TestPlaybackTwitterSource.java" />
         <option value="$PROJECT_DIR$/TwitterMapperStarter/src/twitter/TwitterSource.java" />
-        <option value="$PROJECT_DIR$/TwitterMapperStarter/src/ui/Application.java" />
-        <option value="$PROJECT_DIR$/TwitterMapperStarter/src/filters/test/TestFilters.java" />
         <option value="$PROJECT_DIR$/TwitterMapperStarter/src/filters/BasicFilter.java" />
         <option value="$PROJECT_DIR$/TwitterMapperStarter/src/filters/Filter.java" />
-        <option value="$PROJECT_DIR$/TwitterMapperStarter/src/filters/AndFilter.java" />
+        <option value="$PROJECT_DIR$/TwitterMapperStarter/src/filters/test/TestFilters.java" />
+        <option value="$PROJECT_DIR$/TwitterMapperStarter/src/observable/TweetSaver.java" />
+        <option value="$PROJECT_DIR$/TwitterMapperStarter/src/query/Query.java" />
+        <option value="$PROJECT_DIR$/TwitterMapperStarter/src/ui/Application.java" />
+        <option value="$PROJECT_DIR$/TwitterMapperStarter/src/filters/Parser.java" />
         <option value="$PROJECT_DIR$/TwitterMapperStarter/src/filters/OrFilter.java" />
+        <option value="$PROJECT_DIR$/TwitterMapperStarter/src/filters/AndFilter.java" />
       </list>
     </option>
   </component>
@@ -277,6 +319,26 @@
             <path>
               <item name="final-project-starter" type="58d84e3e:PackageViewProjectNode" />
               <item name="TwitterMapperStarter" type="616d4139:PackageViewModuleNode" />
+              <item name="observable" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="final-project-starter" type="58d84e3e:PackageViewProjectNode" />
+              <item name="TwitterMapperStarter" type="616d4139:PackageViewModuleNode" />
+              <item name="query" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="final-project-starter" type="58d84e3e:PackageViewProjectNode" />
+              <item name="TwitterMapperStarter" type="616d4139:PackageViewModuleNode" />
+              <item name="twitter" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="final-project-starter" type="58d84e3e:PackageViewProjectNode" />
+              <item name="TwitterMapperStarter" type="616d4139:PackageViewModuleNode" />
+              <item name="twitter.test" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="final-project-starter" type="58d84e3e:PackageViewProjectNode" />
+              <item name="TwitterMapperStarter" type="616d4139:PackageViewModuleNode" />
               <item name="ui" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
@@ -310,7 +372,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestScanner">
+  <component name="RunManager" selected="JUnit.TestParser">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -462,11 +524,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestScanner" />
         <item itemvalue="JUnit.TestParser" />
-        <item itemvalue="JUnit.TestFilters" />
-        <item itemvalue="JUnit.TestPlaybackTwitterSource" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.TestFilters" />
+        <item itemvalue="JUnit.TestScanner" />
+        <item itemvalue="JUnit.TestPlaybackTwitterSource" />
       </list>
     </recent_temporary>
   </component>
@@ -484,26 +546,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestPlaybackTwitterSource - 2019.06.12 at 18h 29m 20s.xml">
-      <configuration name="TestPlaybackTwitterSource" configurationId="JUnit" />
+    <history-entry file="TestParser - 2019.06.12 at 21h 45m 32s.xml">
+      <configuration name="TestParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPlaybackTwitterSource - 2019.06.12 at 18h 40m 37s.xml">
-      <configuration name="TestPlaybackTwitterSource" configurationId="JUnit" />
+    <history-entry file="TestParser - 2019.06.12 at 21h 47m 03s.xml">
+      <configuration name="TestParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPlaybackTwitterSource - 2019.06.12 at 19h 12m 52s.xml">
-      <configuration name="TestPlaybackTwitterSource" configurationId="JUnit" />
+    <history-entry file="TestParser - 2019.06.12 at 21h 47m 21s.xml">
+      <configuration name="TestParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestPlaybackTwitterSource - 2019.06.12 at 19h 13m 00s.xml">
-      <configuration name="TestPlaybackTwitterSource" configurationId="JUnit" />
+    <history-entry file="TestParser - 2019.06.12 at 21h 49m 40s.xml">
+      <configuration name="TestParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFilters - 2019.06.12 at 19h 44m 45s.xml">
-      <configuration name="TestFilters" configurationId="JUnit" />
+    <history-entry file="TestParser - 2019.06.12 at 21h 52m 30s.xml">
+      <configuration name="TestParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFilters - 2019.06.12 at 19h 45m 32s.xml">
-      <configuration name="TestFilters" configurationId="JUnit" />
+    <history-entry file="TestParser - 2019.06.12 at 21h 55m 22s.xml">
+      <configuration name="TestParser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestFilters - 2019.06.12 at 19h 46m 20s.xml">
-      <configuration name="TestFilters" configurationId="JUnit" />
+    <history-entry file="TestParser - 2019.06.12 at 21h 57m 23s.xml">
+      <configuration name="TestParser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestParser - 2019.06.12 at 22h 01m 14s.xml">
+      <configuration name="TestParser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestParser - 2019.06.12 at 22h 01m 52s.xml">
+      <configuration name="TestParser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestParser - 2019.06.12 at 22h 01m 53s.xml">
+      <configuration name="TestParser" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -519,9 +590,9 @@
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5735805" visible="true" weight="0.18409818" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5731167" visible="true" weight="0.14354323" />
       <window_info id="Nl-Palette" order="1" />
-      <window_info id="Structure" order="2" sideWeight="0.42641947" side_tool="true" visible="true" weight="0.18409818" />
+      <window_info id="Structure" order="2" sideWeight="0.4268833" side_tool="true" visible="true" weight="0.14354323" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
@@ -529,8 +600,8 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23492908" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39982268" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23492908" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39982268" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32978722" />
@@ -567,27 +638,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/test/TestScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/util/test/TestImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/test/TestParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,13 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/SyntaxError.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -787,27 +834,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/ui/ContentPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/ui/MapMarkerSimple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="63" column="15" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -829,25 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.0-RC1/junit-platform-commons-1.5.0-RC1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4365">
-          <caret line="356" selection-start-line="356" selection-end-line="356" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/twitter/test/TestPlaybackTwitterSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2064#2065#0" expanded="true" />
-            <element signature="e#2102#2103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Observable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -866,65 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/twitter/TwitterSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/query/Query.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="50" column="53" lean-forward="true" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/observable/TweetSaver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/ui/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/test/TestFilters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/BasicFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/NotFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -935,9 +887,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/test/TestScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/Filter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="59">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -945,30 +904,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/AndFilter.java">
+    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/BasicFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/observable/TweetSaver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/query/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/ui/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/twitter/TwitterSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/twitter/test/TestPlaybackTwitterSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/ui/ContentPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-574">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/test/TestFilters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1186">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#1333#1334#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/OrFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="420">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/AndFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.0-RC1/junit-platform-commons-1.5.0-RC1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TwitterMapperStarter/src/filters/test/TestParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

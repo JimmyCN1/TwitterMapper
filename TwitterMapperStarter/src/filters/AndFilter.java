@@ -28,6 +28,6 @@ public class AndFilter implements Filter {
     }
 
     public String toString() {
-        return String.format("%s and %s", child1, child2);
+        return String.format("(%s and %s)", child1, child2);
     }
 }
