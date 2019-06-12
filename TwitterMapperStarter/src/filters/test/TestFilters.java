@@ -1,5 +1,6 @@
 package filters.test;
 
+import com.sun.tools.corba.se.idl.constExpr.Or;
 import filters.*;
 import org.junit.jupiter.api.Test;
 import twitter4j.*;
@@ -27,6 +28,28 @@ public class TestFilters {
         assertFalse(f.matches(makeStatus("fred Flintstone")));
         assertTrue(f.matches(makeStatus("Red Skelton")));
         assertTrue(f.matches(makeStatus("red Skelton")));
+    }
+
+    @Test
+    public void testAnd() {
+        Filter f = new AndFilter(new BasicFilter("fred"), new BasicFilter("Borris"));
+        assertTrue(f.matches(makeStatus("Fred Flintstone and Borris Becker")));
+        assertTrue(f.matches(makeStatus("fred Flintstone with becker borris")));
+        assertFalse(f.matches(makeStatus("Fred Skelton and Orri Eye")));
+        assertFalse(f.matches(makeStatus("red Skelton to Borris neye")));
+        assertFalse(f.matches(makeStatus("Red Skelton and Orri Eye")));
+        assertFalse(f.matches(makeStatus("red Skelton to orri neye")));
+    }
+
+    @Test
+    public void testOr() {
+        Filter f = new OrFilter(new BasicFilter("fred"), new BasicFilter("Borris"));
+        assertTrue(f.matches(makeStatus("Fred Flintstone and Borris Becker")));
+        assertTrue(f.matches(makeStatus("fred Flintstone with becker borris")));
+        assertTrue(f.matches(makeStatus("Fred Skelton and Orri Eye")));
+        assertTrue(f.matches(makeStatus("red Skelton to Borris neye")));
+        assertFalse(f.matches(makeStatus("Red Skelton and Orri Eye")));
+        assertFalse(f.matches(makeStatus("red Skelton to orri neye")));
     }
 
     private Status makeStatus(String text) {
