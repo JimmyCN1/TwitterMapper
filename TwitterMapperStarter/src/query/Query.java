@@ -1,19 +1,27 @@
 package query;
 
 import filters.Filter;
-import observable.TweetSaver;
+import filters.Parser;
+import filters.SyntaxError;
 import org.openstreetmap.gui.jmapviewer.JMapViewer;
 import org.openstreetmap.gui.jmapviewer.Layer;
+import twitter.TwitterSource;
+import twitter4j.Status;
+import ui.MapMarkerSimple;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.List;
 import java.util.Observable;
+import java.util.Observer;
+
+import static util.Util.statusCoordinate;
 
 /**
  * A query over the twitter stream.
  * TODO: Task 4: you are to complete this class.
  */
-public class Query extends TweetSaver {
+public class Query implements Observer {
     // The map on which to display markers when the query matches
     private final JMapViewer map;
     // Each query has its own "layer" so they can be turned on and off all at once
@@ -74,7 +82,17 @@ public class Query extends TweetSaver {
 
     @Override
     public void update(Observable o, Object arg) {
-
+        final List<String> terms = ((TwitterSource) o).getFilterTerms();
+        final String filterStr = String.join(" ", terms);
+        try {
+            final Filter filter = new Parser(filterStr).parse();
+            if (filter.matches((Status) arg)) {
+                //TODO:
+                map.addMapMarker(new MapMarkerSimple(layer, statusCoordinate((Status) arg)));
+            }
+        } catch (SyntaxError syntaxError) {
+            syntaxError.printStackTrace();
+        }
     }
 }
 

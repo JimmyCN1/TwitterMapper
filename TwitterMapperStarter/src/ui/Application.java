@@ -1,6 +1,5 @@
 package ui;
 
-import observable.TweetSaver;
 import org.openstreetmap.gui.jmapviewer.Coordinate;
 import org.openstreetmap.gui.jmapviewer.JMapViewer;
 import org.openstreetmap.gui.jmapviewer.Layer;
@@ -37,13 +36,13 @@ public class Application extends JFrame {
 
     private void initialize() {
         // To use the live twitter stream, use the following line
-//        twitterSource = new LiveTwitterSource();
+        twitterSource = new LiveTwitterSource();
 
         // To use the recorded twitter stream, use the following line
         // The number passed to the constructor is a speedup value:
         //  1.0 - play back at the recorded speed
         //  2.0 - play back twice as fast
-        twitterSource = new PlaybackTwitterSource(60.0);
+//        twitterSource = new PlaybackTwitterSource(60.0);
 
         queries = new ArrayList<>();
     }
@@ -57,7 +56,7 @@ public class Application extends JFrame {
         Set<String> allterms = getQueryTerms();
         twitterSource.setFilterTerms(allterms);
         contentPanel.addQuery(query);
-        twitterSource.addObserver(new TweetSaver());
+        twitterSource.addObserver(query);
     }
 
     /**
