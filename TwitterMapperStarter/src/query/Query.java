@@ -84,7 +84,7 @@ public class Query implements Observer {
     @Override
     public void update(Observable o, Object arg) {
         if (filter.matches((Status) arg)) {
-            map.addMapMarker(new MapMarkerVerbose(layer, statusCoordinate((Status) arg), color));
+            map.addMapMarker(new MapMarkerVerbose(layer, statusCoordinate((Status) arg), color, (Status) arg));
         }
     }
 }
