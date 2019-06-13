@@ -23,4 +23,16 @@ public class TestParser {
         Filter x = new Parser("trump and (evil or blue) and red or green and not not purple").parse();
         assertTrue(x.toString().equals("(((trump and (evil or blue)) and red) or (green and not not purple))"));
     }
+
+    @Test
+    public void testHappy() throws SyntaxError {
+        Filter x = new Parser("trump and (evil or blue)").parse();
+        assertTrue(x.toString().equals("(trump and (evil or blue))"));
+    }
+
+    @Test
+    public void testRaw() throws SyntaxError {
+        Filter x = new Parser("trump and evil or blue and red or green and not not purple").parse();
+        assertTrue(x.toString().equals("(((trump and (evil or blue)) and red) or (green and not not purple))"));
+    }
 }

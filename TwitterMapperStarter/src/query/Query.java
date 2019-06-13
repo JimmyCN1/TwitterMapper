@@ -82,16 +82,8 @@ public class Query implements Observer {
 
     @Override
     public void update(Observable o, Object arg) {
-        final List<String> terms = ((TwitterSource) o).getFilterTerms();
-        final String filterStr = String.join(" ", terms);
-        try {
-            final Filter filter = new Parser(filterStr).parse();
-            if (filter.matches((Status) arg)) {
-                //TODO:
-                map.addMapMarker(new MapMarkerSimple(layer, statusCoordinate((Status) arg)));
-            }
-        } catch (SyntaxError syntaxError) {
-            syntaxError.printStackTrace();
+        if (filter.matches((Status) arg)) {
+            map.addMapMarker(new MapMarkerSimple(layer, statusCoordinate((Status) arg)));
         }
     }
 }

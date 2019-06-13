@@ -44,6 +44,7 @@ public class Parser {
     public Filter parse() throws SyntaxError {
         Filter ans = expr();
         if (scanner.peek() != null) {
+            System.out.println(scanner.peek());
             throw new SyntaxError("Extra stuff at end of input");
         }
         return ans;
