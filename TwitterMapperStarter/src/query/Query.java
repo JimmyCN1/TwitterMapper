@@ -8,6 +8,7 @@ import org.openstreetmap.gui.jmapviewer.Layer;
 import twitter.TwitterSource;
 import twitter4j.Status;
 import ui.MapMarkerSimple;
+import ui.MapMarkerVerbose;
 
 import javax.swing.*;
 import java.awt.*;
@@ -83,7 +84,7 @@ public class Query implements Observer {
     @Override
     public void update(Observable o, Object arg) {
         if (filter.matches((Status) arg)) {
-            map.addMapMarker(new MapMarkerSimple(layer, statusCoordinate((Status) arg)));
+            map.addMapMarker(new MapMarkerVerbose(layer, statusCoordinate((Status) arg), color));
         }
     }
 }
