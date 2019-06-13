@@ -77,7 +77,6 @@ public class Query implements Observer {
     /**
      * This query is no longer interesting, so terminate it and remove all traces of its existence.
      *
-     * TODO: Implement this method
      */
     public void terminate() {
         for (MapMarkerSimple marker : markers) {
@@ -87,9 +86,11 @@ public class Query implements Observer {
 
     @Override
     public void update(Observable o, Object arg) {
-        if (filter.matches((Status) arg)) {
-            MapMarkerVerbose marker = new MapMarkerVerbose(layer, statusCoordinate((Status) arg), color, (Status) arg);
-//            marker.paint(imageFromURL(((Status) arg).getUser().getMiniProfileImageURL()).getGraphics(), );
+        Status status = (Status) arg;
+        if (filter.matches(status)) {
+            MapMarkerVerbose marker = new MapMarkerVerbose(layer, statusCoordinate((Status) arg), color, status);
+            Point point = map.getMapPosition(marker.getLat(), marker.getLon());
+            marker.paint(imageFromURL(((Status) arg).getUser().getMiniProfileImageURL()).createGraphics(), point, 10);
             map.addMapMarker(marker);
             this.markers.add(marker);
 //            map.addMapPolygon(imageFromURL(((Status) arg).getUser().getMiniProfileImageURL()).getGraphics());

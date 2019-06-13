@@ -122,16 +122,8 @@ public class Application extends JFrame {
             public void mouseMoved(MouseEvent e) {
                 Point p = e.getPoint();
                 ICoordinate pos = map().getPosition(p);
-                // TODO: Use the following method to set the text that appears at the mouse cursor
                 for (MapMarker marker : getMarkersCovering(pos, pixelWidth(p))) {
-//                    map().setToolTipText("This is a tooltip");
                     map().setToolTipText(((MapMarkerVerbose) marker).getStatus().getText());
-                    System.out.println(((MapMarkerVerbose) marker).getLat());
-                    System.out.println(((MapMarkerVerbose) marker).getLon());
-                    System.out.println(((MapMarkerVerbose) marker).getLayer());
-                    System.out.println(((MapMarkerVerbose) marker).getName());
-//                    marker = (MapMarkerVerbose) marker;
-//                    map().;
                 }
             }
         });
@@ -198,7 +190,6 @@ public class Application extends JFrame {
 
     // A query has been deleted, remove all traces of it
     public void terminateQuery(Query query) {
-        // TODO: This is the place where you should disconnect the expiring query from the twitter source
         queries.remove(query);
         twitterSource.deleteObserver(query);
         Set<String> allterms = getQueryTerms();
