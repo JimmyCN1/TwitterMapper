@@ -126,6 +126,10 @@ public class Application extends JFrame {
                 for (MapMarker marker : getMarkersCovering(pos, pixelWidth(p))) {
 //                    map().setToolTipText("This is a tooltip");
                     map().setToolTipText(((MapMarkerVerbose) marker).getStatus().getText());
+                    System.out.println(((MapMarkerVerbose) marker).getLat());
+                    System.out.println(((MapMarkerVerbose) marker).getLon());
+                    System.out.println(((MapMarkerVerbose) marker).getLayer());
+                    System.out.println(((MapMarkerVerbose) marker).getName());
 //                    marker = (MapMarkerVerbose) marker;
 //                    map().;
                 }
@@ -196,7 +200,7 @@ public class Application extends JFrame {
     public void terminateQuery(Query query) {
         // TODO: This is the place where you should disconnect the expiring query from the twitter source
         queries.remove(query);
-
+        twitterSource.deleteObserver(query);
         Set<String> allterms = getQueryTerms();
         twitterSource.setFilterTerms(allterms);
     }

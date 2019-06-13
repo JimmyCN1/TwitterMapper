@@ -5,6 +5,7 @@ import filters.Parser;
 import filters.SyntaxError;
 import org.openstreetmap.gui.jmapviewer.JMapViewer;
 import org.openstreetmap.gui.jmapviewer.Layer;
+import org.openstreetmap.gui.jmapviewer.interfaces.MapMarker;
 import twitter.TwitterSource;
 import twitter4j.Status;
 import ui.MapMarkerSimple;
@@ -12,10 +13,10 @@ import ui.MapMarkerVerbose;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.*;
 import java.util.List;
-import java.util.Observable;
-import java.util.Observer;
 
+import static util.Util.imageFromURL;
 import static util.Util.statusCoordinate;
 
 /**
@@ -35,6 +36,7 @@ public class Query implements Observer {
     private final Filter filter;
     // The checkBox in the UI corresponding to this query (so we can turn it on and off and delete it)
     private JCheckBox checkBox;
+    private List<MapMarkerSimple> markers = new ArrayList<>();
 
     public Color getColor() {
         return color;
@@ -78,13 +80,20 @@ public class Query implements Observer {
      * TODO: Implement this method
      */
     public void terminate() {
-
+        for (MapMarkerSimple marker : markers) {
+            map.removeMapMarker(marker);
+        }
     }
 
     @Override
     public void update(Observable o, Object arg) {
         if (filter.matches((Status) arg)) {
-            map.addMapMarker(new MapMarkerVerbose(layer, statusCoordinate((Status) arg), color, (Status) arg));
+            MapMarkerVerbose marker = new MapMarkerVerbose(layer, statusCoordinate((Status) arg), color, (Status) arg);
+//            marker.paint(imageFromURL(((Status) arg).getUser().getMiniProfileImageURL()).getGraphics(), );
+            map.addMapMarker(marker);
+            this.markers.add(marker);
+//            map.addMapPolygon(imageFromURL(((Status) arg).getUser().getMiniProfileImageURL()).getGraphics());
+
         }
     }
 }

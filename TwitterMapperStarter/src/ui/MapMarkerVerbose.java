@@ -16,8 +16,8 @@ public class MapMarkerVerbose extends MapMarkerSimple {
         super(layer, coord);
         setBackColor(color);
         this.status = status;
-        paint(imageFromURL(status.getUser().getMiniProfileImageURL()).getGraphics(), new Point(50, 50), 5);
-        status.getText();
+//        paint(imageFromURL(status.getUser().getMiniProfileImageURL()).createGraphics(), new Point(50, 50), 100);
+//        status.getText();
     }
 
     public Status getStatus() { return this.status; }
@@ -25,4 +25,6 @@ public class MapMarkerVerbose extends MapMarkerSimple {
     public void displayProfilePic() {
 
     }
+
+//    Point p = getMapPosition(this.getLat(), this.getLon(), this.getMarkerStyle()==MapMarkerVerbose.STYLE.FIXED)
 }
